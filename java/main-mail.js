@@ -17,11 +17,11 @@ for (let i = 0; i < utenti.length; i++) {
 
 if (userMail === "d-arrighi@gmail.com") {
     console.log(userMail + ": Mail autorizzata.");
-    alert(userMail + "Mail autorizzata.")
+    alert(userMail + ": Mail autorizzata.")
 }
 
 
 else {
     console.log(userMail + ": Mail rifiutata.")
-    alert(userMail + "Mail rifiutata.")
+    alert(userMail + ": Mail rifiutata.")
 }
