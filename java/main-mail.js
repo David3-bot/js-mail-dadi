@@ -9,7 +9,7 @@ const utenti = ["pippo@gmail.com", "paperino@gmail.com", "gastone@gmail.com", "d
 for (let i = 0; i < utenti.length; i++) {
 
 
-    if (userMail === "d-arrighi@gmail.com") {
+    if (utenti[ i ] === userMail) {
         trovata = true
     }
 
